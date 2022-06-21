@@ -1,0 +1,98 @@
+:root {
+  --color-blue: #4286f5;
+  --color-green: #109d58;
+  --color-red: #ea4235;
+  --color-yellow: #fabd03;
+  --color-black: #484a52;
+  --color-black-blue: #050522;
+  --color-scrollbar-background: #f3f2f7;
+
+  /* Tags Inputs (Chips) */
+  /* --purple: #e41b6f; */
+  --purple: #ef5350;
+  --off-white: #f8f8f8;
+  --off-black: #444444;
+  --shadow: 0 0 30px #cccccc;
+  --xs: 0.2rem;
+  --sm: 0.5rem;
+  --md: 0.8rem;
+  --lg: 1rem;
+  --xlg: 0.5rem;
+  --xxlg: 2rem;
+  --transition: 0.3s linear all;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar,
+::-webkit-scrollbar-track {
+  background: var(--color-green);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-green);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar,
+::-webkit-scrollbar-track {
+  background: var(--color-scrollbar-background);
+}
+
+@font-face {
+  font-family: google-sans;
+  src: url(../font/google-font.woff2);
+  font-display: swap;
+}
+
+body {
+  font-family: google-sans;
+  /* background-color: var(--color-black-blue); */
+}
+
+nav {
+  background-color: #fefefe;
+  height: 80px;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 10%);
+}
+
+nav img {
+  border-radius: 50%;
+}
+
+nav span {
+  color: rgb(0, 0, 0, .54);
+  font-weight: 600;
+  font-size: 110%;
+  text-align: center;
+}
+
+.navbar-brand {
+  white-space: nowrap;
+}
+
+.navbar-nav a span:hover {
+  color: #42A5F5;
+}
+
+.navbar-toggler {
+  color: var(--color-yellow);
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 988px) {
+  .box {
+    justify-content: center;
+  }
+}

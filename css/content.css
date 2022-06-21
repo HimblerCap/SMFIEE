@@ -1,0 +1,127 @@
+.content{
+    background-color: var(--color-black-blue);
+    margin: 18px;
+    padding: 30px;
+    border-radius: 10px;
+    height: 87vh;
+    display: grid;
+
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+}
+
+.content .obten-info {
+    grid-column: 1;
+    grid-row: 1 / 2;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.content .capt {
+    grid-column: 1;
+    grid-row: 2 / 20;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.content .obten-info .video {
+    display: grid;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.content .obten-info .video .multi {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.content .obten-info .video .multi video#video {
+    width: 700px;
+}
+
+.content .obten-info .video .multi .controls{
+    margin: 0;
+}
+
+.content .obten-info .info {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .obten-info .info .desc {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.content .obten-info .info .add {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.content .capt {
+    justify-content: center;
+    align-items: center;
+}
+
+/* Controls */
+
+#play, #stop {
+    border-radius: 12px;
+    border: none;
+    width: 50px;
+    background-color: var(--color-blue);
+}
+
+#plus{
+    border-radius: 12px;
+    border: none;
+    width: 120px;
+    color: white;
+    background-color: var(--color-green);
+}
+
+#startbutton {
+    margin-bottom: 15px;
+    border-radius: 12px;
+    border: none;
+    width: 120px;
+    color: white;
+    background-color: var(--color-blue);
+}
+
+#download {
+    margin-bottom: 15px;
+    border-radius: 12px;
+    border: none;
+    width: 240px;
+    color: white;
+    background-color: var(--color-yellow);
+}
+
+#play:hover {
+    background-color: var(--color-yellow);
+} 
+#stop:hover {
+    background-color: var(--color-red);
+}
+#plus:hover {
+    background-color: green;
+}
+
+#plus:disabled {
+    background-color: rgb(147, 205, 147);
+}
+
+/* Slides */
+
+.mySlides {display:none;}
+
+.w3-content{
+    margin-top: 30px;
+    width: 30vw;
+}
