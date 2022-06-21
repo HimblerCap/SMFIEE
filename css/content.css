@@ -3,7 +3,7 @@
     margin: 18px;
     padding: 30px;
     border-radius: 10px;
-    height: 87vh;
+    height: 120vh;
     display: grid;
 
     text-align: center;
@@ -54,6 +54,7 @@
 }
 
 .content .obten-info .info .desc {
+    display: grid;
     grid-column: 1;
     grid-row: 1;
 }
